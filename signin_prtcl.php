@@ -14,9 +14,10 @@
 		
 		$_SESSION['email'] = $email;
 		$_SESSION['id_user'] = $row['id_user'];
-		$_SESSION['uname'] = $row['uname'];
+		$_SESSION['username'] = $row['username'];
 		$_SESSION['level'] = $row['level'];
-		$_SESSION['nama'] = $row['nama'];
+		$_SESSION['id_status'] = $row['id_status'];
+		$_SESSION['no_hp'] = $row['no_hp'];
 
 		//echo $row['uname'];
 		$_SESSION['login'] = 1;
@@ -25,11 +26,7 @@
 	}
 	else{
 		$_SESSION['login'] = 2;
-		echo 'gagal';
-		echo $_SESSION['login'];
-		echo mysql_num_rows($result);
-		die(mysql_error());
-		echo 'ini '.$_SESSION['email'];
+		header('Location: signin.php');
 		//header('Location: index.php');
 	}
 ?>
