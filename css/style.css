@@ -1,0 +1,235 @@
+* {
+
+	margin: 0; /* trbl */
+}
+
+body {
+	color: white;
+	font-family: sans-serif;
+}
+
+#container {
+	margin: auto;
+}
+
+#head, #menu {
+	background-color: #232323;
+}
+
+#menu .container {
+	padding: 15px 0;
+	border-radius: 15px 15px 0 0;
+}
+
+#menu .container, #body {
+	background-color: #313131;
+}
+
+#menu ul li {
+	padding: 15px;
+}
+
+#menu ul li:hover {
+	border-bottom-style: solid;
+	border-bottom-width: 3px;
+	color: white;
+}
+
+#menu ul li.red:hover {
+	border-bottom-color: #ca1600;
+	background-color: #e95644;
+	border-radius: 15px 0 0 0;
+}
+
+#menu ul li.yellow:hover {
+	border-bottom-color: #c47f00;
+	background-color: orange;
+}
+
+#menu ul li.green:hover {
+	border-bottom-color: #005200;
+	background-color: green;
+}
+
+#date {
+	margin-top: 15;
+}
+
+#body {
+	min-height: 499px;
+}
+
+#body h2 {
+	margin-bottom: 15px;
+}
+
+#foot {
+	background-color: #e95644;
+}
+
+#foot ul, #menu ul {
+	list-style: none;
+	padding: 0;
+}
+
+#foot ul li, #menu ul li {
+	display: inline;
+}
+
+#foot ul li {
+	margin-left: 15px;
+}
+
+#foot a:hover {
+	color: black;
+}
+
+#image, #loading {
+	width: 500px;
+}
+
+.images {
+	/*display: none;*/
+	width: 100px;
+	margin-right: 5px;
+	border: solid 1px white;
+}
+
+#loading {
+	height: 5px;
+	background-color: #ddd;
+}
+
+#captionImage {
+	background-color: black;
+	padding: 15px;
+	width: 470px;
+	position: relative;
+	top: -75;
+	opacity: 0.5;
+}
+
+.container {
+	width: 900px;
+	margin: auto;
+	padding: 15px;
+}
+
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
+}
+
+.clear {
+	clear: both;
+}
+
+.button {
+	border: solid 1px #e95644;
+	border-radius: 20px;
+	background-color: #e95644;
+	padding: 10px 25px;
+	color: white;
+}
+
+.button:hover {
+	background-color: #f97060;
+	color: white;
+}
+
+a {
+	color: white;
+	text-decoration: none;
+}
+
+hr {
+	border: solid 1px white;
+	margin: 25px 0; /* tb rl */
+}
+
+form p {
+	margin-bottom: 25px;
+}
+
+form input[type=text], form input[type=password], form input[type=email], form input[type=tel], form textarea {
+	width: 100%;
+	padding: 5px;
+	font-family: sans-serif;
+	margin-top: 5px;
+}
+
+.message {
+	margin-bottom: 15px;
+}
+
+.message .right {
+	text-align: right;
+}
+
+.avatar {
+	width: 75px;
+}
+
+.avatar.left {
+	margin-right: 15px;
+}
+
+.avatar.right {
+	margin-left: 15px;
+}
+
+table {
+	width: 100%;
+	background-color: white;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+table th, table td {
+	padding: 5px;
+}
+
+table th {
+	background-color: #F05F40;
+}
+
+table td, table a {
+	color: black;
+}
+
+a:hover {
+	color: #e95644;
+}
+
+.box {
+	background-color: white;
+	color: black;
+	width: 200px;
+	text-align: center;
+	border: solid 2px #e95644;
+	float: left;
+	margin: 10px;
+}
+
+.box div {
+	padding: 10px;
+	border-bottom: solid 1px #dfdfdf;
+}
+
+.block div {
+	border: solid 1px #e95644;
+	background-color: #e95644;
+	color: white;
+}
+
+.block div:hover {
+	background-color: #f97060;
+}
+
+.thumbnail {
+	width: 100%;
+	height: 250px;
+}
