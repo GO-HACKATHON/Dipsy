@@ -18,6 +18,7 @@
 		$_SESSION['level'] = $row['level'];
 		$_SESSION['id_status'] = $row['id_status'];
 		$_SESSION['no_hp'] = $row['no_hp'];
+		$_SESSION['saldo'] = $row['saldo'];
 
 		//echo $row['uname'];
 		$_SESSION['login'] = 1;
