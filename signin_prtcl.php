@@ -22,8 +22,10 @@
 
 		//echo $row['uname'];
 		$_SESSION['login'] = 1;
-
-		header('Location: index.php');
+		if($_SESSION['level'] == 1)
+			header('Location: indexadmin.php');
+		else
+			header('Location: index.php');
 	}
 	else{
 		$_SESSION['login'] = 2;

@@ -18,8 +18,8 @@
     <!-- Bootstrap Core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.css" rel="stylesheet">
 
-    <!--<link href="css/style.css" rel="stylesheet" 
-            type="text/css" />-->
+    <link href="css/style.css" rel="stylesheet" 
+            type="text/css" />
 
     <!-- Custom Fonts -->
     <link href="vendor/font-awesome/css/font-awesome.css" rel="stylesheet" type="text/css">
